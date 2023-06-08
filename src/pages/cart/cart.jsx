@@ -28,14 +28,7 @@ export const Cart = () => {
         <div className="checkout">
           <p> Subtotal: ${totalAmount} </p>
           <button onClick={() => navigate("/")}> Continue Shopping </button>
-          <button
-            onClick={() => {
-              checkout();
-              navigate("https://kachitech.com.ng");
-            }}
-          >           
-            Checkout
-          </button>
+          <a href="https://kachitech.com.ng" ><button>Checkout</button></a>
         </div>
       ) : (
         <h1> Your Shopping Cart is Empty</h1>
