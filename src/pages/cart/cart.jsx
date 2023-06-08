@@ -31,11 +31,10 @@ export const Cart = () => {
           <button
             onClick={() => {
               checkout();
-              navigate("/checkout");
+              navigate("https://kachitech.com.ng");
             }}
-          >
-            {" "}
-            Checkout{" "}
+          >           
+            Checkout
           </button>
         </div>
       ) : (
